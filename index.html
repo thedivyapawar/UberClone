@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Clone</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="main-container">
+    <div class="navbar-container">
+    <div class="navbar1">
+        <ul>
+        <li id="logo">Uber</li>
+        <li class="navlink-hidden">Ride</li>
+        <li class="navlink-hidden">Drive</li>
+        <li class="navlink-hidden">Business</li>
+        <li class="navlink-hidden">About</li>
+        </ul>
+    </div>
+    <div class="navbar2">
+    <ul>
+        <li class="navlink-hidden" style="display: flex; align-items: center; gap: 5px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1Zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5ZM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5Zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1Zm1.9-6.1-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4ZM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12Zm3.5 6.6 1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4Z" fill="currentColor"></path></svg>
+        EN</li>
+        <li class="navlink-hidden">Help</li>
+        <li >Login</li>
+        <li id="signup-btn">Sign up</li>
+    </ul>
+
+
+
+    </div>
+    </div>
+
+
+   <!-- Hero Part Start -->
+    <div class="hero-container">
+        <div class="hero-left">
+            <h1>Go anywhere with Uber</h1>
+            <p class="hero-text">Request a ride, hop in and go</p>
+            <div class="box-icon">
+                <div>
+                    <svg width="21" height="21" viewBox="0 0 24 24" fill="none"><path d="m20.9 9-1.5-4.6c-.3-.8-1-1.4-1.9-1.4H6.4c-.9 0-1.6.5-1.9 1.4L3 9H1v3h1v9h4v-2h12v2h4v-9h1V9h-2.1ZM5 14h4v2H5v-2Zm10 2v-2h4v2h-4ZM7.1 6h9.7l1.3 4H5.8l1.3-4Z" fill="currentColor"></path></svg> <br>
+                    Ride
+                </div>
+                <div>
+                    <svg width="21" height="21" viewBox="0 0 24 24" fill="none"><g fill="currentColor"><path d="M21.9 6.4 12 1.5 8.1 3.4l9.9 5 3.9-2ZM2.1 6.4l3.8-1.9 9.9 5-3.8 1.9-9.9-5ZM11 23 1 18V8.1l10 5V23ZM19 13.8v-3.7l4-2V18l-10 5v-9.9l4-2v3.7l2-1Z"></path></g></svg> <br>
+                    Package
+                </div>
+            </div>
+
+             
+            <div class="hero-form">
+                <div class="input-parent">
+                    <div class="input1-form">
+                        <input type="text" placeholder="Pickup Location">
+                           <div class="pickup-icon">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" data-baseweb="icon"><title>search</title><path fill-rule="evenodd" clip-rule="evenodd" d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm5-2a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z" fill="currentColor"></path></svg>
+                            </div>
+                        </div>
+        
+                        <div class="input2-form">
+                            <input type="text" placeholder="Dropoff Location">
+                               <div class="dropoff-icon">
+                                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" data-baseweb="icon"><title>search</title><path fill-rule="evenodd" clip-rule="evenodd" d="M14 10h-4v4h4v-4ZM7 7v10h10V7H7Z" fill="currentColor"></path></svg>
+                                </div>
+                            </div>
+            
+
+                    <div class="line"></div>
+
+                </div>
+
+                <div class="time-container">
+                    <div class="today">
+                        <input type="text" placeholder="Today">
+                        <div class="date-icon">
+                            <img src="./assets/calendar.png" alt="date-icon" width="15Spx">
+                        </div>
+                    </div>
+
+                    <div class="now">
+                        <input type="text" placeholder="Now">
+                        <div class="now-icon">
+                            <img src="./assets/clock.png" alt="now-icon" width="15Spx">
+                        </div>
+                    </div>
+                </div>
+
+                <button class="see-price-btn">See Prices</button>
+            </div>
+        </div>
+        
+
+
+        <div class="hero-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30031.98516046504!2d72.74556129999999!3d19.797676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71e39499f5823%3A0x694aa59b0babcdca!2sBoisar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1731234093435!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div>
+
+    <div class="suggestion-container">
+        <h2>Suggestions</h2>
+        <div class="parent-sugg-container">
+                <div class="sugg-card">
+                    <div class="sugg-content">
+                        <h5>Ride</h5>
+                        <p>Go anywhere with Uber. Request a ride, hop in and go.</p>
+                        <button>Details</button>
+                    </div>
+                    <div class="sugg-img">
+                        <img src="https://mobile-content.uber.com/launch-experience/ride.png" alt="ride">
+                    </div>
+                </div>
+
+            <div class="sugg-card">
+                <div class="sugg-content">
+                    <h5>Reserve</h5>
+                    <p>Reserve your ride in advance so you can relax on the day of your trip.</p>
+                    <button>Details</button>
+                </div>
+                <div class="sugg-img">
+                    <img src="https://mobile-content.uber.com/uber_reserve/reserve_clock.png" alt="reserve">
+                </div>
+            </div>
+
+            <div class="sugg-card">
+                <div class="sugg-content">
+                    <h5>Package</h5>
+                    <p>Uber connect makes same day delivery easier than ever.</p>
+                    <button>Details</button>
+                </div>
+                <div class="sugg-img">
+                    <img src="https://mobile-content.uber.com/launch-experience/connect.png" alt="rentalcars">
+                </div>
+            </div>
+            
+        </div>
+    
+    </div>
+
+    <!-- Suggestion end -->
+
+
+    <!-- Driver Section start -->
+     <div class="drive-container">
+
+        <div class="drive-left-part">
+            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_1072,w_1072/v1684855112/assets/96/4dd3d1-94e7-481e-b28c-08d59353b9e0/original/earner-illustra.png" alt="img1">
+        </div>
+
+        <div class="drive-right-part">
+            <h3>Drive when you <br> want, make what <br> you need</h3>
+            <p>Make money on your schedule with deliveries or rides—or <br> both. You can use your own car or choose a rental <br> through Uber.</p>
+
+            <div>
+                <button class="get-started-btn">Get Started</button>
+                <a >Already has an account? Sign in</a>
+            </div>
+
+        </div>
+
+     </div>
+     <!-- Driver Section end -->
+
+     <!-- Driver Section start -->
+     <div class="reimagined-container">
+
+        <div class="reimagined-left-part">
+            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_1072,w_1072/v1684855112/assets/96/4dd3d1-94e7-481e-b28c-08d59353b9e0/original/earner-illustra.png" alt="img1">
+        </div>
+
+        <div class="reimagined-right-part">
+            <h3>Drive when you <br> want, make what <br> you need</h3>
+            <p>Make money on your schedule with deliveries or rides—or <br> both. You can use your own car or choose a rental <br> through Uber.</p>
+
+            <div>
+                <button class="get-started-btn">Get Started</button>
+                <a >Already has an account? Sign in</a>
+            </div>
+
+        </div>
+
+     </div>
+     <!-- Driver Section end--->
+
+    </div>
+</body>
+</html>
